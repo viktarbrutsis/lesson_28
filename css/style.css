@@ -1,0 +1,37 @@
+/* line 1, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+/* line 4, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+h2 {
+  color: blue;
+}
+
+/* line 7, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 9, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+.block h3 {
+  color: white;
+}
+
+/* line 11, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 13, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+.block_color button {
+  width: 250px;
+}
+
+/* line 15, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+.block .block_color {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
