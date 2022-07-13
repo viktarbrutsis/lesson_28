@@ -1,35 +1,38 @@
-/* line 1, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 8, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 h1 {
   color: red;
   font-size: 50px;
 }
 
-/* line 4, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 11, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 h2 {
   color: blue;
 }
 
-/* line 7, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 14, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 .block {
   background-color: black;
 }
 
-/* line 9, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 16, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 .block h3 {
-  color: white;
+  color: blue;
 }
 
-/* line 11, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 18, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 .block_color {
   background-color: #fff;
 }
 
-/* line 13, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 20, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 .block_color button {
+  display: block;
   width: 250px;
+  height: 200px;
+  background-color: red;
 }
 
-/* line 15, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
+/* line 22, ../../Petrychenko/HTML/lesson_28/sass/style.sass */
 .block .block_color {
   color: pink;
 }

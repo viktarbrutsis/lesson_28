@@ -5,8 +5,8 @@
 		"../sass/style.sass"
 	],
 	"sourcesContent": [
-		"h1 {\n   color: red;\n   font-size: 50px; }\nh2 {\n   color: blue; }\n\n.block {\n   background-color: black;\n   h3 {\n      color: white; }\n   &_color {\n      background-color: #fff;\n      button {\n         width: 250px; } }\n   .block_color {\n      color: pink; } }\n\n"
+		"$text_color: red;\n@mixin box {\n   display: block;\n   width: 250px;\n   height: 200px;\n   background-color: red; }\n\nh1 {\n   color: red;\n   font-size: 50px; }\nh2 {\n   color: blue; }\n\n.block {\n   background-color: black;\n   h3 {\n      color: blue; }\n   &_color {\n      background-color: #fff;\n      button {\n         @include box; } }\n   .block_color {\n      color: pink; } }\n\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACA,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;CAAG;;;AACrB,AAAA,EAAE,CAAC;EACA,KAAK,EAAE,IAAI;CAAG;;;AAEjB,AAAA,MAAM,CAAC;EACJ,gBAAgB,EAAE,KAAK;CAQJ;;;AATtB,AAEG,MAFG,CAEH,EAAE,CAAC;EACA,KAAK,EAAE,KAAK;CAAG;;;AACjB,AAAD,YAAO,CAAC;EACL,gBAAgB,EAAE,IAAI;CAEF;;;AAHtB,AAEE,YAFI,CAEJ,MAAM,CAAC;EACJ,KAAK,EAAE,KAAK;CAAG;;;AAPxB,AAQG,MARG,CAQH,YAAY,CAAC;EACV,KAAK,EAAE,IAAI;CAAG"
+	"mappings": ";AAOA,AAAA,EAAE,CAAC;EACA,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;CAAG;;;AACrB,AAAA,EAAE,CAAC;EACA,KAAK,EAAE,IAAI;CAAG;;;AAEjB,AAAA,MAAM,CAAC;EACJ,gBAAgB,EAAE,KAAK;CAQJ;;;AATtB,AAEG,MAFG,CAEH,EAAE,CAAC;EACA,KAAK,EAAE,IAAI;CAAG;;;AAChB,AAAD,YAAO,CAAC;EACL,gBAAgB,EAAE,IAAI;CAEF;;;AAHtB,AAEE,YAFI,CAEJ,MAAM,CAAC;EAjBV,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CAeA;;;AAPxB,AAQG,MARG,CAQH,YAAY,CAAC;EACV,KAAK,EAAE,IAAI;CAAG"
 }

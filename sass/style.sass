@@ -1,3 +1,10 @@
+$text_color: red
+@mixin box
+   display: block
+   width: 250px
+   height: 200px
+   background-color: red
+   
 h1
    color: red
    font-size: 50px
@@ -7,11 +14,11 @@ h2
 .block
    background-color: black
    h3
-      color: white
+      color: blue
    &_color
       background-color: #fff
       button
-         width: 250px
+         @include box
    .block_color
       color: pink
       
